@@ -1,0 +1,210 @@
+body {
+    background: radial-gradient(#1C2239 0%, #0B0E1A 50%);
+}
+
+body, html {
+    margin:0;
+    height:100%;
+}
+
+h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 108px;
+
+    color: #FFFFFF;
+    margin: 10px;
+
+
+    position:relative;
+    top:5%;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    text-align: center;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+
+
+#rocket_area {
+
+    top:10%;
+
+
+    margin-left:auto;
+    margin-right:auto;
+
+    width:550px;
+    height:600px;
+    position:relative;
+}
+
+
+
+.star {
+    position:absolute;
+    width:15px;
+    height:15px;
+
+    background: url("../resources/stars.png") center;
+}
+
+
+
+.star_flicker-6 {
+    position:absolute;
+    width:15px;
+    height:15px;
+
+    background: url("../resources/stars.png") center;
+    animation: flicker 8s ease alternate infinite;
+}
+@keyframes flicker {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.star_flicker-5 {
+    position:absolute;
+    width:15px;
+    height:15px;
+
+    background: url("../resources/stars.png") center;
+    animation: flicker 6s ease alternate infinite;
+}
+@keyframes flicker {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.star_flicker-4 {
+    position:absolute;
+    width:15px;
+    height:15px;
+
+    background: url("../resources/stars.png") center;
+    animation: flicker 4s ease alternate infinite;
+}
+@keyframes flicker {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.star_flicker-3 {
+    position:absolute;
+    width:15px;
+    height:15px;
+
+    background: url("../resources/stars.png") center;
+    animation: flicker 3s ease alternate infinite;
+}
+@keyframes flicker {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.star_flicker-2 {
+    position:absolute;
+    width:15px;
+    height:15px;
+
+    background: url("../resources/stars.png") center;
+    animation: flicker 2.5s ease alternate infinite;
+}
+@keyframes flicker {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.star_flicker-1 {
+    position:absolute;
+    width:15px;
+    height:15px;
+
+    background: url("../resources/stars.png") center;
+    animation: flicker 1.5s ease alternate infinite;
+}
+@keyframes flicker {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+.rocket_floor {
+    position:absolute;
+
+    top:42%;
+    left:4%;
+    
+
+    width:509px;
+    height:300px;
+    background: url("../resources/rocket-floor.png") center no-repeat;
+
+}
+.rocket {
+    position: absolute;
+
+    top:0%;
+    left:4%;
+
+    width:509px;
+    height:400px;
+    background: url("../resources/rocket.png") center no-repeat;
+
+    animation: rocketMovement 5s ease infinite;
+}
+@keyframes rocketMovement {
+    0% {
+        top:6%;
+    }
+    50% {
+        top:0%;
+    }
+    100% {
+        top:6%;
+    }
+}
+
+
+
+
+
+
+
+
